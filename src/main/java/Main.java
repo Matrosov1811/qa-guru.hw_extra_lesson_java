@@ -16,6 +16,10 @@ public class Main {
         System.out.println(moto1.getHorsePower());
         System.out.println(moto1.getType());
         System.out.println(moto1.brand.getBrandName() + " from " + moto1.brand.getCountry());
+        Motorcycle moto2 = new Motorcycle(100,"black","cruiser",new Motorcycle.Brand("Japan","Yamaha"));
+        moto2.setColor("blue");
+        moto2.setType("custom");
+
 
 
 
